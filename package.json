@@ -1,0 +1,22 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "Starts an http server on 8001 that answers 'hello world' to all requests",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --harmony index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lev-kuznetsov/hello-world.git"
+  },
+  "author": "levk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lev-kuznetsov/hello-world/issues"
+  },
+  "homepage": "https://github.com/lev-kuznetsov/hello-world#readme",
+  "dependencies": {
+    "koa": "^2.5.1"
+  }
+}
