@@ -4,6 +4,7 @@ RUN mkdir -p /opt/app
 WORKDIR /opt/app
 
 COPY . .
+RUN npm i -q
 
 EXPOSE 8001
 
